@@ -26,8 +26,11 @@ header {
 }
 
 .image {
-  height: 70px;
   margin-right: auto;
+}
+
+.image img {
+  height: 70px;
 }
 
 .header-item {
@@ -99,15 +102,197 @@ main {
 .portfolio-image {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 90px;
 }
 
-.portfolio-list {
+.portfolio-list:first-child {
   width: 300px;
   height: 250px;
   margin-right: 10px;
   margin-bottom: 10px;
+  background-image: url(img/sketch.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.portfolio-list:nth-child(2) {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/websuku.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-list:nth-child(3) {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/write.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-list:nth-child(4) {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/webcamp.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-list:nth-child(5) {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/talk.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-list:last-child {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-image: url(img/webcamp-mother.png);
+  background-position: center;
+  background-size: cover;
 }
 
 .portfolio-list:nth-of-type(3n) {
   margin-right: 0;
+}
+
+.feature-content {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.strenth {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+
+.strenth-list {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.strenth-list:last-child {
+  margin-right: 0;
+}
+
+.strenth-list i {
+  font-size: 60px;
+}
+
+.strenth-title {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.strenth-text {
+  font-size: 16px;
+  text-align: left;
+}
+
+.profile {
+  background-color: #eceff1;
+}
+
+.profile-content {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-info {
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.profile-set {
+  width: 512px;
+}
+
+.profile-image {
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.profile-index {
+  width: 512px;
+  text-align: left;
+}
+
+.profile-index h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-index p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  align-content: space-around;
+  padding-bottom: 90px;
+}
+
+.contact-set {
+  width: 400px;
+  text-align: left;
+}
+
+.sns {
+  width: 400px;
+  text-align: left;
+}
+
+.mail-color,
+.tel-color {
+  color: #000;
+  font-size: 16px;
+}
+
+.mail,
+.tel,
+.sns-title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.sns i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  height: 70px;
+  background-color: #ec715f;
+}
+
+footer p {
+  line-height: 70px;
+  text-align: center;
+  color: #fff;
 }
