@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.header-list {
+  display: flex;
+  line-height: 70px;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.image {
+  height: 70px;
+  margin-right: auto;
+}
+
+.header-item {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 30px;
+}
+
+main {
+  background-image: url(img/mv.png);
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-content {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main-title {
+  font-size: 64px;
+  color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-size: 20px;
+  color: #fafafa;
+}
+
+.portfolio {
+  background-color: #eceff1;
+}
+
+.portfolio-content {
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 32px;
+  color: #000;
+  position: relative;
+  margin-bottom: 40px;
+  padding-top: 90px;
+}
+
+.title:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px; /*線の上下位置*/
+  display: inline-block;
+  width: 70px; /*線の長さ*/
+  height: 3px; /*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); /*位置調整*/
+  background-color: #ec715f; /*線の色*/
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.portfolio-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list {
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-list:nth-of-type(3n) {
+  margin-right: 0;
+}
