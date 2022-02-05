@@ -4,30 +4,31 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a212a40694.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
   <header>
     <div class="header-list">
-      <img class="image" src="img/logo.png">
+      <a class="image" href="#main"><img src="img/logo.png"></a>
       <ul>
-        <li class="header-item"><a href="#">Portfolio</a></li>
-        <li class="header-item"><a href="#">Feature</a></li>
-        <li class="header-item"><a href="#">Profile</a></li>
-        <li class="header-item"><a href="#">Contact</a></li>
+        <li class="header-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="header-item"><a href="#feature">Feature</a></li>
+        <li class="header-item"><a href="#profile">Profile</a></li>
+        <li class="header-item"><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </header>
 
-  <main>
+  <main id="main">
     <div class="main-content">
       <h1 class="main-title">Lorem Ipsum</h1>
       <p class="main-text">simply dummy text of the printing</p>
     </div>
   </main>
   
-  <section>
+  <section id="portfolio">
     <div class="portfolio">
       <div class="portfolio-content">
         <h1 class="title">Portfolio</h1>
@@ -38,12 +39,100 @@
         </p>
 
         <div class="portfolio-image">
-          <img class="portfolio-list" src="img/sketch.jpg" alt="">
-          <img class="portfolio-list" src="img/websuku.png" alt="">
-          <img class="portfolio-list" src="img/write.jpg" alt="">
-          <img class="portfolio-list" src="img/webcamp.png" alt="">
-          <img class="portfolio-list" src="img/talk.jpg" alt="">
-          <img class="portfolio-list" src="img/webcamp-mother.png" alt="">
+          <div class="portfolio-list"></div>
+          <div class="portfolio-list"></div>
+          <div class="portfolio-list"></div>
+          <div class="portfolio-list"></div>
+          <div class="portfolio-list"></div>
+          <div class="portfolio-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feature">
+    <div class="feature">
+      <div class="feature-content">
+        <h1 class="title">Feature</h1>
+        <p class="text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+
+        <div class="strenth">
+          <div class="strenth-list">
+            <i class="fas fa-code"></i>
+            <h3 class="strenth-title">Strenth1</h3>
+            <p class="strenth-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+          </div>
+          <div class="strenth-list">
+            <i class="fas fa-desktop"></i>
+            <h3 class="strenth-title">Strenth2</h3>
+            <p class="strenth-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+          </div>
+          <div class="strenth-list">
+            <i class="fas fa-cogs"></i>
+            <h3 class="strenth-title">Strenth3</h3>
+            <p class="strenth-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="profile">
+    <div class="profile">
+      <div class="profile-content">
+        <h1 class="title">Profile</h1>
+        <p class="text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+
+        <div class="profile-info">
+          <div class="profile-set">
+            <div class="profile-image"></div>
+          </div>
+          <div class="profile-index">
+            <h3>My Name</h3>
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur
+            </p>
+            <h3>My Skills</h3>
+            <p>
+              HTML/CSS,JavaScript,JQuery,PhotoShop
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div class="contact-content">
+        <h1 class="title">Contact</h1>
+        <p class="text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+
+        <div class="contact-info">
+          <div class="contact-set">
+            <h3 class="mail">Mail</h3>
+            <a class="mail-color" href="#">a@example.com</a>
+            <h3 class="tel">Tel</h3>
+            <a class="tel-color" href="#">000-0000-0000</a>
+          </div>
+          <div class="sns">
+            <h3 class="sns-title">SNS</h3>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -51,7 +140,7 @@
 
 
   <footer>
-
+    <p>©︎ 2017 WebCamp</p>
   </footer>
 </body>
 </html>
